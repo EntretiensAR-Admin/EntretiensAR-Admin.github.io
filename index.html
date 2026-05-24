@@ -1,0 +1,1222 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Entretiens AR – Tonte & Entretien Paysager | Saint-Hyacinthe & Rive-Sud</title>
+  <meta name="description" content="Entretiens AR : tonte de pelouse, aménagement paysager et déneigement à Saint-Hyacinthe, La Présentation, Saint-Pie et toute la Rive-Sud. Soumission gratuite – Réponse en 24h."/>
+  <meta name="keywords" content="tonte pelouse Saint-Hyacinthe, entretien paysager Montérégie, paysagiste Rive-Sud, déneigement Saint-Hyacinthe, aménagement paysager, pavé uni, taille haies, entretiens AR"/>
+  <link rel="canonical" href="https://entretiensar.com/"/>
+  <!-- Open Graph -->
+  <meta property="og:type" content="website"/>
+  <meta property="og:url" content="https://entretiensar.com/"/>
+  <meta property="og:title" content="Entretiens AR – Tonte & Paysagement à Saint-Hyacinthe"/>
+  <meta property="og:description" content="Service professionnel de tonte, bordures, aménagement et déneigement. Soumission gratuite, réponse en 24h."/>
+  <meta property="og:image" content="photos/IMG_5634.JPG"/>
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:title" content="Entretiens AR – Paysagement Saint-Hyacinthe"/>
+  <meta name="twitter:description" content="Tonte, bordures, aménagement paysager et déneigement. Soumission gratuite."/>
+
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LandscapingBusiness",
+    "name": "Entretiens AR Inc.",
+    "image": "https://entretiensar.com/photos/IMG_5634.JPG",
+    "url": "https://entretiensar.com",
+    "telephone": "+14505012976",
+    "email": "entretiensar@gmail.com",
+    "foundingDate": "2023",
+    "description": "Service professionnel de tonte, aménagement paysager, taille de haies, pavé-uni, nettoyage de gouttières et déneigement à Saint-Hyacinthe et sur la Rive-Sud.",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Saint-Hyacinthe",
+      "addressRegion": "QC",
+      "addressCountry": "CA"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 45.6248,
+      "longitude": -72.9551
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+        "opens": "07:00",
+        "closes": "18:00"
+      }
+    ],
+    "areaServed": [
+      {"@type": "City", "name": "Saint-Hyacinthe"},
+      {"@type": "City", "name": "La Présentation"},
+      {"@type": "City", "name": "Saint-Pie"},
+      {"@type": "City", "name": "Rougemont"}
+    ],
+    "priceRange": "$$",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5",
+      "reviewCount": "3"
+    },
+    "sameAs": [
+      "https://www.facebook.com/profile.php?id=61571918613869"
+    ]
+  }
+  </script>
+
+  <style>
+    :root {
+      --teal: #3DB991;
+      --teal-dark: #2da07b;
+      --teal-glow: rgba(61,185,145,0.15);
+      --charcoal: #1E2A24;
+      --dark: #111816;
+      --mid: #3B3B3B;
+      --gray: #F7F8F6;
+      --gray2: #E4E8E5;
+      --text: #4A5550;
+      --white: #FFFFFF;
+      --radius: 14px;
+      --shadow: 0 8px 40px rgba(0,0,0,0.10);
+      --shadow-hover: 0 16px 48px rgba(0,0,0,0.15);
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; font-size: 16px; }
+    body {
+      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      color: var(--text); background: var(--white); line-height: 1.65;
+      overflow-x: hidden;
+    }
+    img { max-width: 100%; display: block; }
+    a { text-decoration: none; color: inherit; }
+
+    .container { width: 100%; max-width: 1140px; margin: 0 auto; padding: 0 24px; }
+
+    /* BUTTONS */
+    .btn {
+      display: inline-flex; align-items: center; gap: 8px;
+      padding: 15px 34px; border-radius: 50px; font-weight: 700;
+      font-size: 0.95rem; cursor: pointer; transition: all 0.25s;
+      border: 2px solid transparent; letter-spacing: 0.02em;
+    }
+    .btn-primary { background: var(--teal); color: var(--white); }
+    .btn-primary:hover { background: var(--teal-dark); transform: translateY(-2px); box-shadow: 0 10px 28px rgba(61,185,145,0.45); }
+    .btn-dark { background: var(--charcoal); color: var(--white); }
+    .btn-dark:hover { background: var(--dark); transform: translateY(-2px); box-shadow: 0 10px 28px rgba(0,0,0,0.3); }
+    .btn-outline { border-color: rgba(255,255,255,0.45); color: var(--white); background: rgba(255,255,255,0.05); }
+    .btn-outline:hover { background: var(--white); color: var(--charcoal); transform: translateY(-2px); border-color: var(--white); }
+
+    /* TYPOGRAPHY */
+    .section-label {
+      font-size: 0.72rem; font-weight: 800; letter-spacing: 3.5px;
+      text-transform: uppercase; color: var(--teal); margin-bottom: 14px;
+      display: flex; align-items: center; gap: 10px;
+    }
+    .section-label::before {
+      content: ''; display: block; width: 28px; height: 2px; background: var(--teal); flex-shrink: 0;
+    }
+    .section-title {
+      font-size: clamp(2rem, 4.5vw, 3.2rem); font-weight: 900; color: var(--charcoal);
+      line-height: 1.12; margin-bottom: 18px; letter-spacing: -0.02em;
+    }
+    .section-sub { font-size: 1.05rem; color: #7a8a84; max-width: 540px; line-height: 1.8; }
+
+    section { padding: 96px 0; }
+    section.alt { background: var(--gray); }
+
+    /* ===================== HEADER ===================== */
+    header {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
+      background: rgba(255,255,255,0.97); backdrop-filter: blur(16px);
+      border-bottom: 1px solid var(--gray2); transition: box-shadow 0.3s;
+    }
+    header.scrolled { box-shadow: 0 4px 32px rgba(0,0,0,0.09); border-color: transparent; }
+
+    nav { display: flex; align-items: center; justify-content: space-between; height: 76px; gap: 16px; }
+
+    .logo { height: 44px; width: auto; flex-shrink: 0; }
+    .logo-text { font-size: 1.25rem; font-weight: 900; color: var(--charcoal); flex-shrink: 0; display: none; }
+    .logo-text em { font-style: normal; color: var(--teal); }
+
+    .nav-links { display: flex; align-items: center; gap: 32px; list-style: none; }
+    .nav-links a {
+      font-size: 0.88rem; font-weight: 600; color: var(--mid);
+      transition: color 0.2s; white-space: nowrap; position: relative; padding-bottom: 4px;
+    }
+    .nav-links a::after {
+      content: ''; position: absolute; bottom: 0; left: 0; right: 0; height: 2px;
+      background: var(--teal); border-radius: 2px; transform: scaleX(0); transition: transform 0.25s;
+    }
+    .nav-links a:hover { color: var(--teal); }
+    .nav-links a:hover::after { transform: scaleX(1); }
+
+    .nav-right { display: flex; align-items: center; gap: 14px; flex-shrink: 0; }
+    .nav-phone { font-size: 0.84rem; font-weight: 700; color: var(--mid); white-space: nowrap; }
+    .nav-phone span { color: var(--teal); }
+
+    .hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; padding: 8px; background: none; border: none; }
+    .hamburger span { display: block; width: 24px; height: 2px; background: var(--charcoal); border-radius: 2px; transition: all 0.3s; }
+    .hamburger.active span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+    .hamburger.active span:nth-child(2) { opacity: 0; }
+    .hamburger.active span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+    .mobile-nav {
+      display: none; position: fixed; top: 76px; left: 0; right: 0; bottom: 0;
+      background: white; z-index: 999; padding: 28px 24px; overflow-y: auto;
+      flex-direction: column; gap: 4px;
+    }
+    .mobile-nav.open { display: flex; }
+    .mobile-nav a {
+      font-size: 1.1rem; font-weight: 700; color: var(--charcoal);
+      padding: 16px 0; border-bottom: 1px solid var(--gray2);
+    }
+    .mobile-nav a:hover { color: var(--teal); }
+    .mobile-cta { margin-top: 28px; display: flex; flex-direction: column; gap: 12px; }
+    .mobile-cta .btn { justify-content: center; }
+
+    /* ===================== HERO ===================== */
+    .hero {
+      min-height: 100vh; padding-top: 76px;
+      display: grid; grid-template-columns: 1fr 1fr;
+      align-items: stretch;
+      background: linear-gradient(145deg, #182620 0%, #1e3028 55%, #152218 100%);
+      position: relative; overflow: hidden;
+    }
+    .hero-content {
+      position: relative; z-index: 2;
+      padding: 80px 64px 80px 0;
+      display: flex; flex-direction: column; justify-content: center;
+      margin-left: auto; max-width: 580px; width: 100%;
+    }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: rgba(61,185,145,0.15); border: 1px solid rgba(61,185,145,0.3);
+      color: var(--teal); padding: 7px 18px; border-radius: 50px;
+      font-size: 0.78rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase;
+      margin-bottom: 28px; width: fit-content;
+    }
+    .hero-badge-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--teal); animation: pulse-dot 1.8s ease-in-out infinite; }
+    @keyframes pulse-dot { 0%, 100% { opacity: 1; transform: scale(1); } 50% { opacity: 0.4; transform: scale(0.7); } }
+
+    .hero h1 {
+      font-size: clamp(2.6rem, 5.5vw, 4.2rem); font-weight: 900; color: var(--white);
+      line-height: 1.07; letter-spacing: -0.03em; margin-bottom: 22px;
+    }
+    .hero h1 em { font-style: normal; color: var(--teal); }
+    .hero-sub {
+      font-size: 1.08rem; color: rgba(255,255,255,0.65); line-height: 1.78;
+      margin-bottom: 36px; max-width: 420px;
+    }
+    .hero-actions { display: flex; gap: 14px; flex-wrap: wrap; margin-bottom: 52px; }
+    .hero-stats {
+      display: flex; gap: 36px; padding-top: 36px;
+      border-top: 1px solid rgba(255,255,255,0.1);
+    }
+    .hero-stat-num {
+      font-size: 2.2rem; font-weight: 900; color: var(--white); line-height: 1;
+      margin-bottom: 5px;
+    }
+    .hero-stat-num em { font-style: normal; color: var(--teal); }
+    .hero-stat-label { font-size: 0.76rem; color: rgba(255,255,255,0.48); font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; }
+
+    .hero-visual {
+      position: relative; overflow: hidden; min-height: 100vh;
+    }
+    .hero-visual img {
+      width: 100%; height: 100%; object-fit: cover;
+      filter: brightness(0.75) saturate(1.1);
+    }
+    .hero-visual::before {
+      content: ''; position: absolute; inset: 0; z-index: 1;
+      background: linear-gradient(to right, #1e3028 0%, rgba(30,48,40,0.4) 35%, transparent 60%);
+    }
+    .hero-float-card {
+      position: absolute; bottom: 40px; left: 36px; z-index: 2;
+      background: rgba(255,255,255,0.97); backdrop-filter: blur(12px);
+      border-radius: var(--radius); padding: 20px 24px;
+      display: flex; align-items: center; gap: 16px;
+      box-shadow: 0 24px 64px rgba(0,0,0,0.22);
+    }
+    .hero-float-card-icon { font-size: 2.2rem; line-height: 1; }
+    .hero-float-card-title { font-size: 0.97rem; font-weight: 800; color: var(--charcoal); }
+    .hero-float-card-sub { font-size: 0.78rem; color: #7a8a84; margin-top: 3px; }
+
+    /* ===================== TRUST BAR ===================== */
+    .trust-bar { background: var(--white); border-bottom: 1px solid var(--gray2); padding: 28px 0; }
+    .trust-bar-inner {
+      display: flex; align-items: center; justify-content: center;
+      gap: 44px; flex-wrap: wrap;
+    }
+    .trust-item { display: flex; align-items: center; gap: 10px; }
+    .trust-icon { font-size: 1.3rem; }
+    .trust-text { font-size: 0.87rem; font-weight: 700; color: var(--charcoal); }
+    .trust-text em { font-style: normal; color: var(--teal); }
+    .trust-divider { width: 1px; height: 24px; background: var(--gray2); }
+
+    /* ===================== SERVICES ===================== */
+    .services-intro { display: flex; justify-content: space-between; align-items: flex-end; gap: 32px; flex-wrap: wrap; margin-bottom: 56px; }
+    .services-grid {
+      display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px;
+    }
+    .service-card {
+      background: var(--white); border: 1.5px solid var(--gray2);
+      border-radius: var(--radius); padding: 36px 30px;
+      transition: all 0.3s; position: relative; overflow: hidden;
+    }
+    .service-card::after {
+      content: ''; position: absolute; bottom: 0; left: 0; right: 0; height: 3px;
+      background: var(--teal); transform: scaleX(0); transform-origin: left;
+      transition: transform 0.35s;
+    }
+    .service-card:hover { border-color: rgba(61,185,145,0.4); transform: translateY(-5px); box-shadow: var(--shadow-hover); }
+    .service-card:hover::after { transform: scaleX(1); }
+    .service-icon { font-size: 2.4rem; margin-bottom: 20px; display: block; }
+    .service-card h3 { font-size: 1.12rem; font-weight: 800; color: var(--charcoal); margin-bottom: 10px; }
+    .service-card p { font-size: 0.92rem; color: var(--text); line-height: 1.72; }
+    .service-tag {
+      display: inline-block; margin-top: 18px;
+      font-size: 0.73rem; font-weight: 800; color: var(--teal);
+      background: var(--teal-glow); padding: 4px 12px; border-radius: 50px;
+      letter-spacing: 0.04em;
+    }
+
+    /* ===================== GALLERY ===================== */
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-auto-rows: 220px;
+      gap: 12px; margin-top: 56px;
+    }
+    .gallery-item {
+      border-radius: var(--radius); overflow: hidden;
+      cursor: pointer; position: relative;
+    }
+    .gallery-item:nth-child(1) { grid-column: span 2; grid-row: span 2; }
+    .gallery-item img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.45s; }
+    .gallery-item:hover img { transform: scale(1.06); }
+    .gallery-overlay {
+      position: absolute; inset: 0;
+      background: linear-gradient(to top, rgba(0,0,0,0.48) 0%, transparent 55%);
+      opacity: 0; transition: opacity 0.3s;
+      display: flex; align-items: flex-end; padding: 16px;
+    }
+    .gallery-item:hover .gallery-overlay { opacity: 1; }
+    .gallery-zoom { color: white; font-size: 0.8rem; font-weight: 700; display: flex; align-items: center; gap: 6px; }
+
+    /* ===================== ABOUT ===================== */
+    .about-grid {
+      display: grid; grid-template-columns: 1fr 1fr;
+      gap: 80px; align-items: center;
+    }
+    .about-image-wrap { position: relative; }
+    .about-image-wrap img { width: 100%; border-radius: calc(var(--radius)*1.5); box-shadow: var(--shadow); }
+    .about-badge-wrap {
+      position: absolute; bottom: -24px; right: -24px;
+      background: var(--teal); color: var(--white);
+      border-radius: var(--radius); padding: 22px 28px;
+      text-align: center; box-shadow: 0 12px 36px rgba(61,185,145,0.4);
+    }
+    .about-badge-num { font-size: 2.2rem; font-weight: 900; line-height: 1; }
+    .about-badge-label { font-size: 0.73rem; font-weight: 700; opacity: 0.88; margin-top: 5px; letter-spacing: 0.06em; text-transform: uppercase; }
+    .about-content p { margin-bottom: 18px; line-height: 1.82; }
+    .about-values { display: flex; flex-direction: column; gap: 14px; margin-top: 32px; }
+    .about-value {
+      display: flex; align-items: flex-start; gap: 16px;
+      padding: 20px; background: var(--gray); border-radius: var(--radius);
+      border-left: 3px solid var(--teal);
+    }
+    .about-value-icon { font-size: 1.45rem; flex-shrink: 0; margin-top: 1px; }
+    .about-value h4 { font-weight: 800; color: var(--charcoal); font-size: 0.95rem; margin-bottom: 4px; }
+    .about-value p { font-size: 0.88rem; color: var(--text); margin: 0; line-height: 1.65; }
+
+    /* ===================== TESTIMONIALS ===================== */
+    .testimonials-grid {
+      display: grid; grid-template-columns: repeat(3, 1fr);
+      gap: 24px; margin-top: 56px;
+    }
+    .testimonial-card {
+      background: var(--white); border: 1.5px solid var(--gray2);
+      border-radius: var(--radius); padding: 36px 30px;
+      transition: all 0.3s;
+    }
+    .testimonial-card:hover { box-shadow: var(--shadow-hover); transform: translateY(-4px); border-color: rgba(61,185,145,0.3); }
+    .testimonial-stars { color: #F5A623; font-size: 1rem; letter-spacing: 2px; margin-bottom: 18px; }
+    .testimonial-text { font-size: 0.97rem; color: var(--text); line-height: 1.82; font-style: italic; margin-bottom: 26px; }
+    .testimonial-author { display: flex; align-items: center; gap: 14px; }
+    .testimonial-avatar {
+      width: 46px; height: 46px; border-radius: 50%;
+      background: var(--teal-glow); border: 2px solid var(--teal);
+      display: flex; align-items: center; justify-content: center;
+      font-weight: 900; font-size: 1.05rem; color: var(--teal); flex-shrink: 0;
+    }
+    .testimonial-name { font-weight: 800; color: var(--charcoal); font-size: 0.92rem; }
+    .testimonial-source { font-size: 0.74rem; color: #9aA8a2; margin-top: 3px; }
+
+    /* ===================== ZONE ===================== */
+    .zone-section { background: var(--charcoal); }
+    .zone-section .section-label { color: var(--teal); }
+    .zone-section .section-title { color: var(--white); }
+    .zone-section .section-sub { color: rgba(255,255,255,0.58); }
+
+    .zone-inner { display: grid; grid-template-columns: 1fr 1fr; gap: 72px; align-items: start; }
+    .zone-tabs { display: flex; gap: 8px; margin: 28px 0 24px; flex-wrap: wrap; }
+    .zone-tab {
+      padding: 9px 22px; border-radius: 50px; font-size: 0.85rem; font-weight: 700;
+      cursor: pointer; border: 1.5px solid rgba(255,255,255,0.18);
+      color: rgba(255,255,255,0.6); background: transparent; transition: all 0.22s;
+    }
+    .zone-tab:hover { border-color: var(--teal); color: var(--teal); }
+    .zone-tab.active { background: var(--teal); color: var(--white); border-color: var(--teal); }
+
+    .zone-panel { display: none; }
+    .zone-panel.active { display: block; }
+    .zone-cities { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; }
+    .zone-item {
+      background: rgba(255,255,255,0.07); border: 1px solid rgba(255,255,255,0.12);
+      color: rgba(255,255,255,0.82); padding: 7px 16px; border-radius: 50px;
+      font-size: 0.85rem; font-weight: 600;
+    }
+    .zone-note { font-size: 0.84rem; color: rgba(255,255,255,0.45); margin-top: 14px; }
+
+    .zone-cta-box {
+      background: rgba(255,255,255,0.05); border: 1.5px solid rgba(255,255,255,0.1);
+      border-radius: calc(var(--radius)*1.5); padding: 40px;
+    }
+    .zone-cta-box h3 { font-size: 1.25rem; font-weight: 900; color: var(--white); margin-bottom: 12px; }
+    .zone-cta-box p { font-size: 0.93rem; color: rgba(255,255,255,0.58); margin-bottom: 28px; line-height: 1.78; }
+    .zone-cta-box .btn { width: 100%; justify-content: center; margin-bottom: 12px; }
+
+    /* ===================== FAQ ===================== */
+    .faq-inner { display: grid; grid-template-columns: 1fr 1.3fr; gap: 80px; align-items: start; }
+    .faq-list { display: flex; flex-direction: column; gap: 10px; }
+    .faq-item {
+      background: var(--white); border: 1.5px solid var(--gray2);
+      border-radius: var(--radius); overflow: hidden; transition: border-color 0.25s;
+    }
+    .faq-item.open { border-color: var(--teal); }
+    .faq-q {
+      width: 100%; display: flex; justify-content: space-between; align-items: center;
+      padding: 22px 24px; background: none; border: none; cursor: pointer;
+      font-weight: 700; font-size: 0.97rem; color: var(--charcoal);
+      text-align: left; gap: 16px; transition: color 0.2s;
+    }
+    .faq-q:hover, .faq-item.open .faq-q { color: var(--teal); }
+    .faq-arrow { font-size: 1rem; flex-shrink: 0; transition: transform 0.3s; }
+    .faq-item.open .faq-arrow { transform: rotate(180deg); }
+    .faq-a {
+      max-height: 0; overflow: hidden; transition: max-height 0.35s ease, padding 0.25s;
+      font-size: 0.93rem; color: var(--text); line-height: 1.82; padding: 0 24px;
+    }
+    .faq-item.open .faq-a { max-height: 400px; padding: 0 24px 22px; }
+
+    /* ===================== CONTACT ===================== */
+    .contact-section { background: var(--gray); }
+    .contact-inner { display: grid; grid-template-columns: 1fr 1.15fr; gap: 72px; align-items: start; }
+    .contact-method {
+      display: flex; align-items: flex-start; gap: 18px;
+      padding: 22px; background: var(--white); border-radius: var(--radius);
+      margin-bottom: 14px; border: 1.5px solid var(--gray2); transition: all 0.25s;
+    }
+    .contact-method:hover { border-color: var(--teal); box-shadow: var(--shadow); transform: translateX(4px); }
+    .contact-method-icon { font-size: 1.5rem; flex-shrink: 0; }
+    .contact-method-label { font-size: 0.73rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.1em; color: var(--teal); margin-bottom: 4px; }
+    .contact-method-value { font-size: 1rem; font-weight: 800; color: var(--charcoal); }
+    .contact-method-note { font-size: 0.77rem; color: #9aA8a2; margin-top: 3px; }
+
+    .contact-form-wrap {
+      background: var(--white); border-radius: calc(var(--radius)*1.5);
+      padding: 44px; box-shadow: var(--shadow);
+    }
+    .contact-form-wrap h3 { font-size: 1.4rem; font-weight: 900; color: var(--charcoal); margin-bottom: 6px; }
+    .contact-form-wrap .form-sub { font-size: 0.87rem; color: #7a8a84; margin-bottom: 28px; }
+    .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+    .form-group { margin-bottom: 14px; }
+    .form-group label { display: block; font-size: 0.79rem; font-weight: 700; color: var(--charcoal); margin-bottom: 7px; }
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+      width: 100%; padding: 13px 16px; border: 1.5px solid var(--gray2);
+      border-radius: 10px; font-size: 0.93rem; color: var(--charcoal);
+      background: var(--gray); transition: border-color 0.2s, background 0.2s;
+      font-family: inherit;
+    }
+    .form-group input:focus,
+    .form-group select:focus,
+    .form-group textarea:focus {
+      outline: none; border-color: var(--teal); background: var(--white);
+    }
+    .form-group textarea { resize: vertical; min-height: 100px; }
+    .fsub {
+      width: 100%; padding: 16px; border: none; border-radius: 50px;
+      background: var(--teal); color: var(--white); font-weight: 800;
+      font-size: 1rem; cursor: pointer; transition: all 0.25s;
+      letter-spacing: 0.02em; margin-top: 6px;
+    }
+    .fsub:hover { background: var(--teal-dark); transform: translateY(-2px); box-shadow: 0 10px 28px rgba(61,185,145,0.4); }
+
+    /* ===================== FOOTER ===================== */
+    footer { background: var(--dark); color: rgba(255,255,255,0.7); padding: 72px 0 32px; }
+    .footer-grid { display: grid; grid-template-columns: 1.8fr 1fr 1fr 1fr; gap: 48px; margin-bottom: 52px; }
+    .footer-logo { height: 38px; margin-bottom: 20px; filter: brightness(0) invert(1) opacity(0.85); }
+    .footer-brand p { font-size: 0.87rem; line-height: 1.8; max-width: 280px; }
+    .footer-tagline { font-weight: 700; color: var(--teal); margin-top: 18px; font-size: 0.87rem; }
+    .footer-col h4 {
+      font-size: 0.75rem; font-weight: 800; text-transform: uppercase;
+      letter-spacing: 0.1em; color: rgba(255,255,255,0.38); margin-bottom: 20px;
+    }
+    .footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+    .footer-col ul a { font-size: 0.87rem; color: rgba(255,255,255,0.62); transition: color 0.2s; }
+    .footer-col ul a:hover { color: var(--teal); }
+    .footer-bottom {
+      padding-top: 28px; border-top: 1px solid rgba(255,255,255,0.08);
+      display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px;
+    }
+    .footer-bottom p { font-size: 0.79rem; color: rgba(255,255,255,0.32); }
+
+    /* ===================== STICKY CTA ===================== */
+    .sticky-cta {
+      position: fixed; bottom: 28px; right: 28px; z-index: 900;
+      background: var(--teal); color: var(--white);
+      padding: 15px 26px; border-radius: 50px; font-weight: 800; font-size: 0.9rem;
+      box-shadow: 0 8px 32px rgba(61,185,145,0.5);
+      display: flex; align-items: center; gap: 8px;
+      transition: all 0.25s; border: 2px solid rgba(255,255,255,0.2);
+    }
+    .sticky-cta:hover { background: var(--teal-dark); transform: translateY(-3px); box-shadow: 0 14px 40px rgba(61,185,145,0.55); }
+
+    /* ===================== LIGHTBOX ===================== */
+    .lightbox {
+      display: none; position: fixed; inset: 0; z-index: 2000;
+      background: rgba(0,0,0,0.92); align-items: center; justify-content: center;
+    }
+    .lightbox.open { display: flex; }
+    .lightbox img { max-width: 90vw; max-height: 85vh; border-radius: var(--radius); object-fit: contain; }
+    .lightbox-close {
+      position: absolute; top: 24px; right: 28px; background: rgba(255,255,255,0.1);
+      border: none; color: white; font-size: 1.4rem; cursor: pointer;
+      border-radius: 50%; width: 46px; height: 46px;
+      display: flex; align-items: center; justify-content: center; transition: background 0.2s;
+    }
+    .lightbox-close:hover { background: rgba(255,255,255,0.2); }
+
+    /* ===================== RESPONSIVE ===================== */
+    @media (max-width: 1024px) {
+      .hero { grid-template-columns: 1fr; }
+      .hero-content { padding: 64px 24px 52px; max-width: 100%; margin: 0; }
+      .hero-visual { display: none; }
+      .services-grid { grid-template-columns: repeat(2, 1fr); }
+      .about-grid { grid-template-columns: 1fr; gap: 48px; }
+      .about-badge-wrap { bottom: 16px; right: 16px; }
+      .testimonials-grid { grid-template-columns: 1fr 1fr; }
+      .zone-inner { grid-template-columns: 1fr; gap: 40px; }
+      .faq-inner { grid-template-columns: 1fr; gap: 48px; }
+      .contact-inner { grid-template-columns: 1fr; gap: 40px; }
+      .footer-grid { grid-template-columns: 1fr 1fr; gap: 36px; }
+      .gallery-grid { grid-template-columns: repeat(2, 1fr); grid-auto-rows: 200px; }
+      .gallery-item:nth-child(1) { grid-column: span 2; }
+    }
+    @media (max-width: 768px) {
+      section { padding: 64px 0; }
+      .nav-links, .nav-right .btn-primary { display: none; }
+      .hamburger { display: flex; }
+      .nav-phone { display: none; }
+      .services-grid { grid-template-columns: 1fr; }
+      .testimonials-grid { grid-template-columns: 1fr; }
+      .form-row { grid-template-columns: 1fr; }
+      .trust-bar-inner { gap: 20px; }
+      .trust-divider { display: none; }
+      .hero-stats { gap: 24px; flex-wrap: wrap; }
+      .footer-grid { grid-template-columns: 1fr; gap: 28px; }
+      .footer-bottom { flex-direction: column; text-align: center; gap: 8px; }
+      .gallery-grid { grid-template-columns: 1fr 1fr; grid-auto-rows: 150px; gap: 8px; }
+      .gallery-item:nth-child(1) { grid-column: span 2; }
+      .sticky-cta { bottom: 18px; right: 14px; left: 14px; justify-content: center; border-radius: 14px; }
+      .faq-inner { gap: 40px; }
+      .services-intro { flex-direction: column; align-items: flex-start; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ===================== HEADER ===================== -->
+<header id="hdr">
+  <div class="container">
+    <nav aria-label="Navigation principale">
+      <a href="#hero" aria-label="Entretiens AR — accueil">
+        <img class="logo" src="photos/Création sans titre - 2.png" alt="Logo Entretiens AR"
+          onerror="this.style.display='none'; document.getElementById('logo-text').style.display='block'"/>
+        <span id="logo-text" class="logo-text" style="display:none;">Entretiens <em>AR</em></span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#gallery">Réalisations</a></li>
+        <li><a href="#about">À propos</a></li>
+        <li><a href="#zone">Zone desservie</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+      <div class="nav-right">
+        <a href="tel:4505012976" class="nav-phone">📞 <span>450-501-2976</span></a>
+        <a href="#contact" class="btn btn-primary">Soumission gratuite</a>
+      </div>
+      <button class="hamburger" id="ham" onclick="toggleNav()" aria-label="Menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </div>
+</header>
+
+<!-- Mobile drawer -->
+<nav class="mobile-nav" id="mobileNav" aria-label="Navigation mobile">
+  <a href="#services" onclick="toggleNav()">Services</a>
+  <a href="#gallery" onclick="toggleNav()">Réalisations</a>
+  <a href="#about" onclick="toggleNav()">À propos</a>
+  <a href="#zone" onclick="toggleNav()">Zone desservie</a>
+  <a href="#faq" onclick="toggleNav()">FAQ</a>
+  <div class="mobile-cta">
+    <a href="#contact" class="btn btn-primary" onclick="toggleNav()">✅ Soumission gratuite</a>
+    <a href="tel:4505012976" class="btn btn-dark">📞 Appeler Antoine</a>
+    <a href="tel:4502788529" class="btn btn-dark">📞 Appeler Émile</a>
+  </div>
+</nav>
+
+
+<!-- ===================== HERO ===================== -->
+<section class="hero" id="hero" aria-label="Page d'accueil">
+  <div class="hero-content">
+    <div class="hero-badge">
+      <span class="hero-badge-dot"></span>
+      Saison 2026 en cours
+    </div>
+    <h1>Votre terrain,<br/><em>impeccable.</em><br/>Saison après saison.</h1>
+    <p class="hero-sub">
+      Tonte, bordures, aménagement paysager et déneigement — on s'occupe de tout à Saint-Hyacinthe et sur la Rive-Sud. Soumission gratuite, réponse en 24h.
+    </p>
+    <div class="hero-actions">
+      <a href="#contact" class="btn btn-primary">✅ Obtenir une soumission</a>
+      <a href="tel:4505012976" class="btn btn-outline">📞 Appeler maintenant</a>
+    </div>
+    <div class="hero-stats">
+      <div>
+        <div class="hero-stat-num">3<em>+</em></div>
+        <div class="hero-stat-label">Ans d'expérience</div>
+      </div>
+      <div>
+        <div class="hero-stat-num">5<em>★</em></div>
+        <div class="hero-stat-label">Note Google</div>
+      </div>
+      <div>
+        <div class="hero-stat-num">100<em>+</em></div>
+        <div class="hero-stat-label">Clients satisfaits</div>
+      </div>
+    </div>
+  </div>
+  <div class="hero-visual" aria-hidden="true">
+    <img src="photos/amenagement-plateforme.jpg" alt="" loading="eager"/>
+    <div class="hero-float-card">
+      <div class="hero-float-card-icon">🌿</div>
+      <div>
+        <div class="hero-float-card-title">Terrain complété aujourd'hui</div>
+        <div class="hero-float-card-sub">Saint-Hyacinthe, Montérégie</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ===================== TRUST BAR ===================== -->
+<div class="trust-bar" role="complementary" aria-label="Points forts">
+  <div class="container">
+    <div class="trust-bar-inner">
+      <div class="trust-item">
+        <span class="trust-icon">⭐</span>
+        <span class="trust-text"><em>5 étoiles</em> sur Google</span>
+      </div>
+      <div class="trust-divider" aria-hidden="true"></div>
+      <div class="trust-item">
+        <span class="trust-icon">🚀</span>
+        <span class="trust-text">Soumission <em>en 24h</em></span>
+      </div>
+      <div class="trust-divider" aria-hidden="true"></div>
+      <div class="trust-item">
+        <span class="trust-icon">📍</span>
+        <span class="trust-text"><em>Saint-Hyacinthe</em> &amp; Rive-Sud</span>
+      </div>
+      <div class="trust-divider" aria-hidden="true"></div>
+      <div class="trust-item">
+        <span class="trust-icon">🔒</span>
+        <span class="trust-text">Sans engagement · <em>Gratuit</em></span>
+      </div>
+      <div class="trust-divider" aria-hidden="true"></div>
+      <div class="trust-item">
+        <span class="trust-icon">🌿</span>
+        <span class="trust-text">Service <em>saisonnier</em> disponible</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- ===================== SERVICES ===================== -->
+<section id="services" aria-labelledby="services-title">
+  <div class="container">
+    <div class="services-intro">
+      <div>
+        <span class="section-label">Ce qu'on fait</span>
+        <h2 class="section-title" id="services-title">Des services complets,<br/>une équipe de confiance.</h2>
+        <p class="section-sub">Du printemps à l'hiver, on prend soin de votre propriété pour que vous n'ayez à vous soucier de rien.</p>
+      </div>
+      <a href="#contact" class="btn btn-primary" style="flex-shrink:0;">Soumission gratuite →</a>
+    </div>
+    <div class="services-grid">
+      <article class="service-card">
+        <span class="service-icon">🌿</span>
+        <h3>Tonte &amp; bordures</h3>
+        <p>Tonte régulière au calendrier fixe, finition de bordures précise et soufflage des surfaces dures. Votre terrain toujours propre, sans que vous ayez à y penser.</p>
+        <span class="service-tag">Contrats saisonniers</span>
+      </article>
+      <article class="service-card">
+        <span class="service-icon">✂️</span>
+        <h3>Taille de haies</h3>
+        <p>Taille et entretien de haies et arbustes pour des formes nettes et une croissance saine. Ramassage et disposition des résidus inclus.</p>
+        <span class="service-tag">Résidus ramassés</span>
+      </article>
+      <article class="service-card">
+        <span class="service-icon">🧱</span>
+        <h3>Pavé-uni &amp; dallage</h3>
+        <p>Installation d'entrées, de patios et de bordures en pavé-uni. Travail soigné, matériaux durables, résultat qui valorise votre propriété.</p>
+        <span class="service-tag">Valorisation immobilière</span>
+      </article>
+      <article class="service-card">
+        <span class="service-icon">🍂</span>
+        <h3>Nettoyage de gouttières</h3>
+        <p>Déblocage et nettoyage complet de vos gouttières pour éviter les dommages causés par l'eau. Vérification de l'état incluse à chaque visite.</p>
+        <span class="service-tag">Inspection incluse</span>
+      </article>
+      <article class="service-card">
+        <span class="service-icon">🌳</span>
+        <h3>Aménagement paysager</h3>
+        <p>Conception et réalisation de jardins, massifs de fleurs, plantation d'arbres et transformation complète de votre cour. Projets sur mesure.</p>
+        <span class="service-tag">Sur mesure</span>
+      </article>
+      <article class="service-card">
+        <span class="service-icon">❄️</span>
+        <h3>Déneigement</h3>
+        <p>Déneigement résidentiel et commercial : entrées, stationnements, trottoirs. Vous vous réveillez — c'est déjà fait. Contrats hivernaux disponibles.</p>
+        <span class="service-tag">Contrats hivernaux</span>
+      </article>
+    </div>
+  </div>
+</section>
+
+
+<!-- ===================== GALLERY ===================== -->
+<section class="alt" id="gallery" aria-labelledby="gallery-title">
+  <div class="container">
+    <span class="section-label">Nos réalisations</span>
+    <h2 class="section-title" id="gallery-title">Le travail parle<br/>pour lui-même.</h2>
+    <p class="section-sub">Quelques chantiers réalisés dans la région de Saint-Hyacinthe et les environs.</p>
+    <div class="gallery-grid" role="list">
+      <div class="gallery-item" role="listitem" onclick="openLightbox(this)" tabindex="0" aria-label="Agrandir photo — aménagement paysager">
+        <img src="photos/amenagement-plateforme.jpg" alt="Aménagement paysager complet — massifs de fleurs, arbustes taillés et gazon impeccable à Saint-Hyacinthe" loading="lazy"/>
+        <div class="gallery-overlay"><span class="gallery-zoom">🔍 Agrandir</span></div>
+      </div>
+      <div class="gallery-item" role="listitem" onclick="openLightbox(this)" tabindex="0" aria-label="Agrandir photo — installation pavé-uni">
+        <img src="photos/pave-uni.jpg" alt="Installation de pavé-uni — patio et allée en dalles de béton" loading="lazy"/>
+        <div class="gallery-overlay"><span class="gallery-zoom">🔍 Agrandir</span></div>
+      </div>
+      <div class="gallery-item" role="listitem" onclick="openLightbox(this)" tabindex="0" aria-label="Agrandir photo — gazon neuf et paysagement">
+        <img src="photos/gazon-neuf.jpg" alt="Paysagement de construction neuve — gazon, massifs et entretien extérieur" loading="lazy"/>
+        <div class="gallery-overlay"><span class="gallery-zoom">🔍 Agrandir</span></div>
+      </div>
+      <div class="gallery-item" role="listitem" onclick="openLightbox(this)" tabindex="0" aria-label="Agrandir photo — Entretiens AR en action">
+        <img src="photos/camion-chantier.jpg" alt="Camion Entretiens AR avec remorque et équipement professionnel sur chantier" loading="lazy"/>
+        <div class="gallery-overlay"><span class="gallery-zoom">🔍 Agrandir</span></div>
+      </div>
+      <div class="gallery-item" role="listitem" onclick="openLightbox(this)" tabindex="0" aria-label="Agrandir photo — tonte et entretien">
+        <img src="photos/IMG_5634.JPG" alt="Tonte et entretien de pelouse à Saint-Hyacinthe par Entretiens AR" loading="lazy"/>
+        <div class="gallery-overlay"><span class="gallery-zoom">🔍 Agrandir</span></div>
+      </div>
+      <div class="gallery-item" role="listitem" onclick="openLightbox(this)" tabindex="0" aria-label="Agrandir photo — résultat final">
+        <img src="photos/IMG_5753.jpeg" alt="Résultat final — bordures nettes et gazon coupé uniformément" loading="lazy"/>
+        <div class="gallery-overlay"><span class="gallery-zoom">🔍 Agrandir</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ===================== ABOUT ===================== -->
+<section id="about" aria-labelledby="about-title">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-image-wrap">
+        <img src="photos/camion-chantier.jpg" alt="Camion Entretiens AR — flotte professionnelle à Saint-Hyacinthe" loading="lazy"/>
+        <div class="about-badge-wrap">
+          <div class="about-badge-num">★ 5</div>
+          <div class="about-badge-label">Note Google</div>
+        </div>
+      </div>
+      <div class="about-content">
+        <span class="section-label">Qui sommes-nous</span>
+        <h2 class="section-title" id="about-title">Deux frères,<br/>une vision.</h2>
+        <p>Entretiens AR, c'est Antoine et Émile — deux gars de la région qui ont fondé l'entreprise en 2023 avec une idée simple : offrir un service d'entretien extérieur fiable, professionnel et accessible dans la grande région de Saint-Hyacinthe.</p>
+        <p>On fait le travail avec soin et on traite chaque terrain comme si c'était le nôtre. Pas de sous-traitance, pas de surprises — vous savez toujours qui est sur votre propriété.</p>
+        <div class="about-values">
+          <div class="about-value">
+            <div class="about-value-icon">🤝</div>
+            <div>
+              <h4>Fiabilité avant tout</h4>
+              <p>On arrive à l'heure, on fait ce qu'on dit et on vous tient informé. Pas de mauvaises surprises.</p>
+            </div>
+          </div>
+          <div class="about-value">
+            <div class="about-value-icon">🔍</div>
+            <div>
+              <h4>Souci du détail</h4>
+              <p>Les bordures nettes, le gazon uniforme, les allées propres — les petites choses font toute la différence.</p>
+            </div>
+          </div>
+          <div class="about-value">
+            <div class="about-value-icon">🌿</div>
+            <div>
+              <h4>Ancré dans la région</h4>
+              <p>On est d'ici. On connaît les coins, le monde et le caractère de chaque terrain de la Montérégie.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ===================== TESTIMONIALS ===================== -->
+<section class="alt" id="temoignages" aria-labelledby="temoignages-title">
+  <div class="container">
+    <span class="section-label">Ce qu'ils en disent</span>
+    <h2 class="section-title" id="temoignages-title">Nos clients parlent<br/>à notre place.</h2>
+    <p class="section-sub">Tous nos avis sont vérifiés sur Google. Rien de mis en scène.</p>
+    <div class="testimonials-grid">
+      <article class="testimonial-card">
+        <div class="testimonial-stars" aria-label="5 étoiles">★★★★★</div>
+        <p class="testimonial-text">« Excellent service ! Toujours à l'heure, travail soigné et résultats impeccables. Antoine et son équipe sont professionnels et fiables. Je recommande sans hésitation ! »</p>
+        <div class="testimonial-author">
+          <div class="testimonial-avatar" aria-hidden="true">A</div>
+          <div>
+            <div class="testimonial-name">M. Asselin</div>
+            <div class="testimonial-source">⭐ Avis Google vérifié</div>
+          </div>
+        </div>
+      </article>
+      <article class="testimonial-card">
+        <div class="testimonial-stars" aria-label="5 étoiles">★★★★★</div>
+        <p class="testimonial-text">« Très satisfait du service reçu. L'équipe est ponctuelle, sérieuse et le travail est bien fait. Mon terrain n'a jamais été aussi beau. Merci Entretiens AR ! »</p>
+        <div class="testimonial-author">
+          <div class="testimonial-avatar" aria-hidden="true">B</div>
+          <div>
+            <div class="testimonial-name">M. Beaulac</div>
+            <div class="testimonial-source">⭐ Avis Google vérifié</div>
+          </div>
+        </div>
+      </article>
+      <article class="testimonial-card">
+        <div class="testimonial-stars" aria-label="5 étoiles">★★★★★</div>
+        <p class="testimonial-text">« Service rapide, efficace et très professionnel. Ils ont transformé mon terrain en quelques heures. Prix honnête et communication claire du début à la fin. »</p>
+        <div class="testimonial-author">
+          <div class="testimonial-avatar" aria-hidden="true">B</div>
+          <div>
+            <div class="testimonial-name">A. Bouchard</div>
+            <div class="testimonial-source">⭐ Avis Google vérifié</div>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+
+<!-- ===================== ZONE ===================== -->
+<section class="zone-section" id="zone" aria-labelledby="zone-title">
+  <div class="container">
+    <div class="zone-inner">
+      <div>
+        <span class="section-label">Zone desservie</span>
+        <h2 class="section-title" id="zone-title">On est proche<br/>de chez vous.</h2>
+        <p class="section-sub">Entretiens AR dessert Saint-Hyacinthe et une grande partie de la Rive-Sud. Vérifiez si votre secteur est couvert.</p>
+        <div class="zone-tabs" role="tablist">
+          <button class="zone-tab active" role="tab" aria-selected="true" onclick="showZone('sh', this)">Saint-Hyacinthe</button>
+          <button class="zone-tab" role="tab" aria-selected="false" onclick="showZone('env', this)">Environs</button>
+          <button class="zone-tab" role="tab" aria-selected="false" onclick="showZone('rs', this)">Rive-Sud étendue</button>
+        </div>
+        <div id="z-sh" class="zone-panel active" role="tabpanel">
+          <div class="zone-cities">
+            <div class="zone-item">Saint-Hyacinthe</div>
+            <div class="zone-item">La Présentation</div>
+            <div class="zone-item">Saint-Pie</div>
+            <div class="zone-item">Rougemont</div>
+          </div>
+          <p class="zone-note">📍 Zone principale — présence quotidienne garantie</p>
+        </div>
+        <div id="z-env" class="zone-panel" role="tabpanel">
+          <div class="zone-cities">
+            <div class="zone-item">Saint-Simon</div>
+            <div class="zone-item">Saint-Damase</div>
+            <div class="zone-item">Saint-Dominique</div>
+            <div class="zone-item">Sainte-Rosalie</div>
+            <div class="zone-item">Sainte-Marie-Madeleine</div>
+            <div class="zone-item">Saint-Valérien</div>
+          </div>
+          <p class="zone-note">📍 Zone secondaire — couverture régulière</p>
+        </div>
+        <div id="z-rs" class="zone-panel" role="tabpanel">
+          <div class="zone-cities">
+            <div class="zone-item">Boucherville</div>
+            <div class="zone-item">St-Bruno</div>
+            <div class="zone-item">Chambly</div>
+            <div class="zone-item">Carignan</div>
+            <div class="zone-item">Beloeil</div>
+            <div class="zone-item">McMasterville</div>
+          </div>
+          <p class="zone-note">🌳 Pour les projets d'aménagement — on se déplace sur toute la Rive-Sud</p>
+        </div>
+      </div>
+      <div class="zone-cta-box">
+        <h3>Votre secteur est-il desservi ?</h3>
+        <p>Contactez-nous avec votre adresse et on vous confirme la disponibilité rapidement. Soumission gratuite, sans engagement.</p>
+        <a href="#contact" class="btn btn-primary">Vérifier mon secteur</a>
+        <a href="tel:4505012976" class="btn btn-outline">📞 Appeler Antoine</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ===================== FAQ ===================== -->
+<section id="faq" aria-labelledby="faq-title">
+  <div class="container">
+    <div class="faq-inner">
+      <div>
+        <span class="section-label">Questions fréquentes</span>
+        <h2 class="section-title" id="faq-title">Tout ce que vous<br/>devez savoir.</h2>
+        <p class="section-sub">Vous ne trouvez pas votre réponse ? On est là pour vous aider.</p>
+        <div style="margin-top:32px;">
+          <a href="tel:4505012976" class="btn btn-primary">📞 Nous appeler</a>
+        </div>
+      </div>
+      <div class="faq-list" role="list">
+        <div class="faq-item" role="listitem">
+          <button class="faq-q" onclick="toggleFaq(this)" aria-expanded="false">
+            Est-ce que vous avertissez avant de venir tondre ? <span class="faq-arrow">▾</span>
+          </button>
+          <div class="faq-a">Oui — nos clients à contrat régulier ont une fréquence établie et on respecte l'horaire. Si quelque chose change (météo, délai), on vous avise à l'avance. Pas de mauvaise surprise.</div>
+        </div>
+        <div class="faq-item" role="listitem">
+          <button class="faq-q" onclick="toggleFaq(this)" aria-expanded="false">
+            Comment fonctionne la soumission gratuite ? <span class="faq-arrow">▾</span>
+          </button>
+          <div class="faq-a">Remplissez le formulaire ci-dessous ou appelez-nous directement. On évalue vos besoins, on visite si nécessaire, et on vous envoie une soumission claire et détaillée — sans frais, sans engagement.</div>
+        </div>
+        <div class="faq-item" role="listitem">
+          <button class="faq-q" onclick="toggleFaq(this)" aria-expanded="false">
+            Offrez-vous des contrats saisonniers ? <span class="faq-arrow">▾</span>
+          </button>
+          <div class="faq-a">Absolument ! C'est notre service le plus populaire. Un contrat saisonnier vous garantit une tonte régulière tout au long de la saison, à fréquence fixe, sans avoir à nous rappeler à chaque fois.</div>
+        </div>
+        <div class="faq-item" role="listitem">
+          <button class="faq-q" onclick="toggleFaq(this)" aria-expanded="false">
+            Qu'est-ce qui est inclus dans la tonte ? <span class="faq-arrow">▾</span>
+          </button>
+          <div class="faq-a">La tonte comprend la coupe de la pelouse, la finition des bordures (autour des clôtures, allées, entrées) et le soufflage des surfaces dures. Le tout laissé propre et net à notre départ.</div>
+        </div>
+        <div class="faq-item" role="listitem">
+          <button class="faq-q" onclick="toggleFaq(this)" aria-expanded="false">
+            Faites-vous aussi le déneigement l'hiver ? <span class="faq-arrow">▾</span>
+          </button>
+          <div class="faq-a">Oui ! On offre des contrats de déneigement saisonniers pour les entrées résidentielles et commerciales. Vous vous levez le matin — c'est déjà fait. Contactez-nous à l'automne pour réserver votre place.</div>
+        </div>
+        <div class="faq-item" role="listitem">
+          <button class="faq-q" onclick="toggleFaq(this)" aria-expanded="false">
+            Vous déplacez-vous en dehors de Saint-Hyacinthe ? <span class="faq-arrow">▾</span>
+          </button>
+          <div class="faq-a">Oui — notre zone principale couvre Saint-Hyacinthe, La Présentation, Saint-Pie et Rougemont. Pour les projets d'aménagement paysager, on se déplace sur l'ensemble de la Rive-Sud. N'hésitez pas à nous demander.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ===================== CONTACT ===================== -->
+<section class="contact-section" id="contact" aria-labelledby="contact-title">
+  <div class="container">
+    <div class="contact-inner">
+      <div>
+        <span class="section-label">Contact</span>
+        <h2 class="section-title" id="contact-title">Prêt à avoir un<br/>terrain impeccable ?</h2>
+        <p class="section-sub" style="margin-bottom:36px;">Soumission gratuite, réponse en 24h. Pas de pression, pas d'engagement.</p>
+        <a href="tel:4505012976" class="contact-method">
+          <div class="contact-method-icon">📞</div>
+          <div>
+            <div class="contact-method-label">Antoine — Propriétaire</div>
+            <div class="contact-method-value">450-501-2976</div>
+            <div class="contact-method-note">Disponible du lundi au vendredi</div>
+          </div>
+        </a>
+        <a href="tel:4502788529" class="contact-method">
+          <div class="contact-method-icon">📞</div>
+          <div>
+            <div class="contact-method-label">Émile — Co-fondateur</div>
+            <div class="contact-method-value">450-278-8529</div>
+            <div class="contact-method-note">Disponible du lundi au vendredi</div>
+          </div>
+        </a>
+        <a href="mailto:entretiensar@gmail.com" class="contact-method">
+          <div class="contact-method-icon">✉️</div>
+          <div>
+            <div class="contact-method-label">Courriel</div>
+            <div class="contact-method-value">entretiensar@gmail.com</div>
+            <div class="contact-method-note">Réponse sous 24h garantie</div>
+          </div>
+        </a>
+        <a href="https://www.facebook.com/profile.php?id=61571918613869" target="_blank" rel="noopener noreferrer" class="contact-method">
+          <div class="contact-method-icon">📘</div>
+          <div>
+            <div class="contact-method-label">Facebook</div>
+            <div class="contact-method-value">Entretiens AR</div>
+            <div class="contact-method-note">Messages privés bienvenus</div>
+          </div>
+        </a>
+      </div>
+      <div class="contact-form-wrap">
+        <h3>Demande de soumission</h3>
+        <p class="form-sub">Gratuite · Sans engagement · Réponse en 24h</p>
+        <form onsubmit="sendForm(event)" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="nom">Nom complet *</label>
+              <input type="text" id="nom" name="nom" placeholder="Marie Tremblay" required autocomplete="name"/>
+            </div>
+            <div class="form-group">
+              <label for="tel">Téléphone *</label>
+              <input type="tel" id="tel" name="tel" placeholder="450-555-1234" required autocomplete="tel"/>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="courriel">Courriel</label>
+            <input type="email" id="courriel" name="courriel" placeholder="marie@exemple.com" autocomplete="email"/>
+          </div>
+          <div class="form-group">
+            <label for="adresse">Adresse du terrain *</label>
+            <input type="text" id="adresse" name="adresse" placeholder="123 Rue Principale, Saint-Hyacinthe" required autocomplete="street-address"/>
+          </div>
+          <div class="form-group">
+            <label for="service">Service souhaité *</label>
+            <select id="service" name="service" required>
+              <option value="" disabled selected>Choisir un service…</option>
+              <option value="Tonte et bordures">🌿 Tonte &amp; bordures</option>
+              <option value="Taille de haies">✂️ Taille de haies</option>
+              <option value="Pavé-uni">🧱 Pavé-uni &amp; dallage</option>
+              <option value="Gouttières">🍂 Nettoyage de gouttières</option>
+              <option value="Aménagement paysager">🌳 Aménagement paysager</option>
+              <option value="Déneigement">❄️ Déneigement</option>
+              <option value="Contrat saisonnier">📅 Contrat saisonnier complet</option>
+              <option value="Autre">💬 Autre / plusieurs services</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="msg">Message (optionnel)</label>
+            <textarea id="msg" name="msg" placeholder="Décrivez votre terrain, vos besoins particuliers, vos disponibilités…"></textarea>
+          </div>
+          <button type="submit" class="fsub">✅ Envoyer ma demande</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ===================== FOOTER ===================== -->
+<footer role="contentinfo">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <img class="footer-logo" src="photos/Création sans titre - 2.png" alt="Logo Entretiens AR"
+          onerror="this.style.display='none'"/>
+        <p>Service professionnel d'entretien extérieur à Saint-Hyacinthe et sur la Rive-Sud. Fondé en 2023 par Antoine &amp; Émile.</p>
+        <div class="footer-tagline">Entretenir. Embellir. Valoriser.</div>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#services">Tonte &amp; bordures</a></li>
+          <li><a href="#services">Taille de haies</a></li>
+          <li><a href="#services">Pavé-uni</a></li>
+          <li><a href="#services">Gouttières</a></li>
+          <li><a href="#services">Aménagement paysager</a></li>
+          <li><a href="#services">Déneigement</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="#gallery">Nos réalisations</a></li>
+          <li><a href="#about">À propos</a></li>
+          <li><a href="#zone">Zone desservie</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contact">Soumission gratuite</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="tel:4505012976">📞 450-501-2976 (Antoine)</a></li>
+          <li><a href="tel:4502788529">📞 450-278-8529 (Émile)</a></li>
+          <li><a href="mailto:entretiensar@gmail.com">✉️ entretiensar@gmail.com</a></li>
+          <li><a href="#zone">📍 Saint-Hyacinthe &amp; Rive-Sud</a></li>
+          <li><a href="https://www.facebook.com/profile.php?id=61571918613869" target="_blank" rel="noopener">📘 Facebook</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Entretiens AR Inc. Tous droits réservés.</p>
+      <p>Fait avec ❤️ à Saint-Hyacinthe, Québec</p>
+    </div>
+  </div>
+</footer>
+
+
+<!-- ===================== STICKY CTA ===================== -->
+<a href="tel:4505012976" class="sticky-cta" aria-label="Appeler Entretiens AR au 450-501-2976">
+  📞 Appeler maintenant
+</a>
+
+
+<!-- ===================== LIGHTBOX ===================== -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Photo agrandie" onclick="closeLightbox()">
+  <button class="lightbox-close" onclick="closeLightbox()" aria-label="Fermer la photo">✕</button>
+  <img id="lightbox-img" src="" alt=""/>
+</div>
+
+
+<!-- ===================== JS ===================== -->
+<script>
+  // Header scroll effect
+  const hdr = document.getElementById('hdr');
+  window.addEventListener('scroll', () => {
+    hdr.classList.toggle('scrolled', window.scrollY > 20);
+  }, { passive: true });
+
+  // Mobile nav toggle
+  function toggleNav() {
+    const nav = document.getElementById('mobileNav');
+    const ham = document.getElementById('ham');
+    const isOpen = nav.classList.toggle('open');
+    ham.classList.toggle('active', isOpen);
+    ham.setAttribute('aria-expanded', String(isOpen));
+    document.body.style.overflow = isOpen ? 'hidden' : '';
+  }
+
+  // Zone tabs
+  function showZone(id, btn) {
+    document.querySelectorAll('.zone-panel').forEach(p => p.classList.remove('active'));
+    document.querySelectorAll('.zone-tab').forEach(t => {
+      t.classList.remove('active');
+      t.setAttribute('aria-selected', 'false');
+    });
+    document.getElementById('z-' + id).classList.add('active');
+    btn.classList.add('active');
+    btn.setAttribute('aria-selected', 'true');
+  }
+
+  // FAQ accordion
+  function toggleFaq(btn) {
+    const item = btn.parentElement;
+    const wasOpen = item.classList.contains('open');
+    // Close all
+    document.querySelectorAll('.faq-item').forEach(i => {
+      i.classList.remove('open');
+      i.querySelector('.faq-q').setAttribute('aria-expanded', 'false');
+    });
+    // Open clicked if it was closed
+    if (!wasOpen) {
+      item.classList.add('open');
+      btn.setAttribute('aria-expanded', 'true');
+    }
+  }
+
+  // Gallery lightbox
+  function openLightbox(el) {
+    const img = el.querySelector('img');
+    if (!img || !img.complete || img.naturalWidth === 0) return;
+    const lb = document.getElementById('lightbox');
+    const lbImg = document.getElementById('lightbox-img');
+    lbImg.src = img.src;
+    lbImg.alt = img.alt;
+    lb.classList.add('open');
+    document.body.style.overflow = 'hidden';
+    lb.focus();
+  }
+  function closeLightbox() {
+    document.getElementById('lightbox').classList.remove('open');
+    document.body.style.overflow = '';
+  }
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape') closeLightbox();
+  });
+  document.querySelectorAll('.gallery-item').forEach(item => {
+    item.addEventListener('keydown', e => {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openLightbox(item); }
+    });
+  });
+
+  // Contact form
+  function sendForm(e) {
+    e.preventDefault();
+    const f = e.target;
+    const btn = f.querySelector('.fsub');
+    const vals = {
+      nom: f.nom.value.trim(),
+      tel: f.tel.value.trim(),
+      courriel: f.courriel.value.trim(),
+      adresse: f.adresse.value.trim(),
+      service: f.service.value,
+      msg: f.msg.value.trim()
+    };
+    const subject = encodeURIComponent('Soumission — ' + vals.service + ' — ' + vals.nom);
+    const body = encodeURIComponent([
+      'Nom: ' + vals.nom,
+      'Téléphone: ' + vals.tel,
+      'Courriel: ' + (vals.courriel || '(non fourni)'),
+      'Adresse: ' + vals.adresse,
+      'Service demandé: ' + vals.service,
+      '',
+      'Message:',
+      vals.msg || '(aucun message)'
+    ].join('\n'));
+    window.location.href = 'mailto:entretiensar@gmail.com?subject=' + subject + '&body=' + body;
+    btn.textContent = '✅ Demande envoyée — Réponse dans les 24h !';
+    btn.style.background = '#2da07b';
+    btn.disabled = true;
+  }
+
+  // Smooth scroll with header offset
+  document.querySelectorAll('a[href^="#"]').forEach(a => {
+    a.addEventListener('click', e => {
+      const href = a.getAttribute('href');
+      if (href === '#') return;
+      const target = document.querySelector(href);
+      if (target) {
+        e.preventDefault();
+        const y = target.getBoundingClientRect().top + window.scrollY - 84;
+        window.scrollTo({ top: y, behavior: 'smooth' });
+      }
+    });
+  });
+</script>
+
+</body>
+</html>
